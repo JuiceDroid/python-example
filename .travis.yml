@@ -6,4 +6,5 @@ python:
 - 3.4
 before_script:
   - printl("hi")
+  - printl(test_var)
 script: py.test -v
