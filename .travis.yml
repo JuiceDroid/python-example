@@ -2,8 +2,9 @@ language: python
 sudo: false
 python:
 - 2.7
-- 3.3
+- 2.0
 - 3.4
 before_script:
   - printl("hi")
+  - printl(text_var)
 script: py.test -v
